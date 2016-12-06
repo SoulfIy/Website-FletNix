@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    /*background: img#000000;*/
+    background-image: url(images/fletnix_background_2.png)
+}
+
+.paginaStandaard {
+    display: flex;
+
+}
+
+.header {
+    display:flex;
+    background: #333;
+    display: inline-flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    border-right: 1px #666666;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    width: 150px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.copyright {
+    font-size:12px;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.contentbox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    color: #FFFFFF;
+    text-shadow: 4px 4px 10px #000000;
+    padding-top: 0px;
+    justify-content: center;
+    margin: auto;
+    font-family: Dosis, Arial, serif;
+    font-size: 24px;
+}
+
+.check {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.button {
+    justify-content: center;
+    background: #f1e719;
+    color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-family: Dosis, Arial, serif;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.videoContent {
+    justify-content: center;
+    background:grey;
+    color:white;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 0px 100px 0px 100px;
+    align-self: flex-end;
+
+}
+
+.moviePoster {
+    width: 175px;
+    height: 250px;
+}
+
+ul {
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.header > li {
+    border-bottom: 1px solid #bbb;
+}
+
+li a {
+    margin: 0px;
+    padding: 8px 16px;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Dosis, Arial, serif;
+    font-size: 18px;
+}
+
+li a:hover {
+    background: rgb(255, 5, 17);
+
+}
+
+.filmaanbod {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background: #f1e719;
+}
+
+.abonnementkeuzepagina {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.abonnementinfo {
+    display: flex;
+
+    padding-right: 20px;
+    flex-direction: row;
+}
+
+.registratieblok {
+    display: flex;
+}
+
+.keuze {
+padding: 60px 100px 0px 100px;
+}
